@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bio-data — Your Name</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand">
+        <h1 class="name">Bio-data</h1>
+      </div>
+      <nav>
+        <a href="index.html">Resume</a>
+        <a href="bio.html" class="active">Bio-data</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card biodata">
+      <h2>Personal Details</h2>
+      <table class="biodata-table">
+        <tbody>
+          <tr><th>Name</th><td>Your Name</td></tr>
+          <tr><th>Father's Name</th><td>Father Name</td></tr>
+          <tr><th>Date of Birth</th><td>01-Jan-2003</td></tr>
+          <tr><th>Gender</th><td>Male</td></tr>
+          <tr><th>Nationality</th><td>Indian</td></tr>
+          <tr><th>Languages</th><td>English, Kannada, Hindi</td></tr>
+          <tr><th>Address</th><td>Street, City, State, PIN</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Academic Details</h3>
+      <ul>
+        <li>10th: School — % / Grade</li>
+        <li>12th: College — % / Grade</li>
+        <li>Degree: B.E. — CGPA: 8.2</li>
+      </ul>
+
+      <h3>Declaration</h3>
+      <p>I hereby declare that the above information is true to the best of my knowledge and belief.</p>
+
+      <div class="actions">
+        <button id="printBtn" class="btn">Print / Save as PDF</button>
+        <a class="btn" href="index.html">Back to Resume</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; <span id="year2"></span></small>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

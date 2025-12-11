@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Resume — Your Name</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand">
+        <h1 class="name">Your Name</h1>
+        <p class="tagline">Computer Engineering Student • Embedded Systems • Web</p>
+      </div>
+      <nav>
+        <a href="index.html" class="active">Resume</a>
+        <a href="bio.html">Bio-data</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-grid">
+    <aside class="card profile">
+      <img src="assets/avatar.png" alt="Profile photo" class="avatar">
+      <h2>Contact</h2>
+      <ul class="meta">
+        <li><strong>Email:</strong> your.email@example.com</li>
+        <li><strong>Phone:</strong> +91-XXXXXXXXXX</li>
+        <li><strong>Location:</strong> City, State, India</li>
+      </ul>
+      <a class="btn" href="bio.html">View Bio-data</a>
+    </aside>
+
+    <section class="card content">
+      <h2>Education</h2>
+      <div class="edu">
+        <h3>B.E. — Computer Science & Engineering</h3>
+        <p>Visvesvaraya Technological University (VTU) — 2021–Present • CGPA: 8.2</p>
+      </div>
+
+      <h2>Technical Skills</h2>
+      <ul class="skills">
+        <li>C, C++, Python, JavaScript</li>
+        <li>HTML5, CSS3, jQuery, Bootstrap</li>
+        <li>ARM, Microcontrollers, Embedded Systems</li>
+        <li>Git, Linux, VS Code</li>
+      </ul>
+
+      <h2>Projects (selected)</h2>
+      <article class="project">
+        <h4>Embedded Temperature Logger</h4>
+        <p>ARM MCU collects sensor data; stores on SD card; simple web dashboard visualizes logs.</p>
+      </article>
+
+      <article class="project">
+        <h4>Network Simulator Exercise</h4>
+        <p>NS2 scripts to simulate TCP/UDP flows; generated NAM traces and analyzed throughput.</p>
+      </article>
+
+      <h2>Experience</h2>
+      <p>Internships / college projects — list here.</p>
+
+      <h2>Actions</h2>
+      <p>
+        <a id="downloadResume" class="btn" href="#">Download as PDF (browser Print → Save as PDF)</a>
+        <button id="contactMe" class="btn-outline">Contact</button>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; <span id="year"></span> Your Name — Resume</small>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
